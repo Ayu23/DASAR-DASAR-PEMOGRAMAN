@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int nilai[5], jumlah;
+for(int i=0; i<5; i++)
+  {
+   cout<<"Input Nilai Ke-"<<(i+1)<<":";
+   cin>>nilai[i];
+   jumlah=jumlah+nilai[i];
+  }
+  cout<<"Hasilnya : "<<jumlah;
+  return 0;
+}
